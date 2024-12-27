@@ -12,7 +12,7 @@ function AboutMe() {
             <h5>Know More About Me</h5>
             <h1>About me<Face3Icon style={{ fontSize: "40", color: "66FCF1",marginLeft:"20px" }} className="aboutimg"/></h1>
             <div className="img-cont">
-              <img src="aboutme.png"></img>
+              <img src="aboutme.png" alt="about"></img>
             </div>
             <div>
               

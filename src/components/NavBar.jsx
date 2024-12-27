@@ -10,7 +10,7 @@ function NavBar() {
   <span class="visually-hidden">Loading...</span>
 </div>
     <div class="logo-container">
-      <img src="logo.jpg" alt="Your Image" class="logo-image"/>
+      <img src="logo.jpg" alt="MyImage" class="logo-image"/>
     </div>
     <div class="spinner-grow" role="status">
   <span class="visually-hidden">Loading...</span>

@@ -19,7 +19,7 @@ function Projects() {
             <div className="col-md-5 col-sm-12">
               <div className="card card-projects">
                 <div className="image">
-                  <img href="#" src="music.jpg" />
+                  <img alt="music" src="music.jpg" />
                   <h3 className="pro">Spotify Clone</h3>
                 </div>
                 <div className="content">
@@ -36,7 +36,7 @@ function Projects() {
             <div className="col-md-5 col-sm-12 ">
               <div className="card " >
                 <div className="image">
-                  <img href="https://github.com/KhushbooDha30/Wanderlust" src="wanderlust.jpg" />
+                  <img alt="hotel" src="wanderlust.jpg" />
                   <h3 className="pro">Wanderlust</h3>
                 </div>
                 <div className="content">
@@ -44,7 +44,7 @@ function Projects() {
                   <p>
                   Wanderlust is a responsive hotel rental system focusing on hotel search, user authentication, and efficient property management.
                   </p>
-                  <a href="#" class="btn pro-btn hero-btn shadow-none hover-shadow-lg">
+                  <a href="https://github.com/KhushbooDha30/Wanderlust" class="btn pro-btn hero-btn shadow-none hover-shadow-lg">
                   Github Repository
                   </a>
                 </div>
@@ -56,7 +56,7 @@ function Projects() {
               <div className="col-md-5 col-sm-12">
                 <div className="card">
                   <div className="image">
-                    <img href="#" src="zerodha.jpeg" />
+                    <img alt="clone" src="zerodha.jpeg" />
                     <h3 className="pro">Zerodha Clone</h3>
                   </div>
                   <div className="content">

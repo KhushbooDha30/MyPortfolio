@@ -23,8 +23,7 @@ function ContactMe() {
           <div className="row contact-info">
             <div className="col-1"></div>
             <div className="col-10">
-              <img src="logo192.png" className="contact" />
-
+             
             
             </div>
             <div className="col-1"></div>
