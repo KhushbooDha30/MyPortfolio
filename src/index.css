@@ -62,10 +62,11 @@ container-img,profile-picture{
   color: white;
   background-color: #124E66;
   margin: 25px;
-  padding: 0px 10;
+  padding: 8px 20;
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
+  display: inline-block; 
   transition: box-shadow 0.3s ease !important; 
 }
 .hover-shadow-lg:hover {
@@ -75,12 +76,42 @@ container-img,profile-picture{
     color: whitesmoke;
   }
 }
+.hero-btn a {
+  text-decoration: none;
+  color: white;
+}
 
 .pro-btn{
   margin-top: 1px;
 
 }
+@media (max-width: 768px) { /* Tablets and small devices */
+  .details {
+    text-align: center; /* Center align for better visibility */
+    margin-top: 20px;
+  }
 
+  .hero-btn {
+    margin: 10px 5px; /* Reduce margin for smaller screens */
+    padding: 10px 18px;
+  }
+}
+@media (max-width: 480px) { /* Mobile devices */
+  .details {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero-btn {
+    margin: 8px 3px; /* Reduce margin further for smaller screens */
+    padding: 8px 15px;
+    font-size: 14px; /* Adjust font size for smaller buttons */
+  }
+
+  .details h4, .details h1 {
+    font-size: 18px; /* Adjust heading sizes for small screens */
+  }
+}
 
 h1{
   margin-left: 100px;
@@ -97,6 +128,32 @@ h1{
 .card{
   text-align: center;
   line-height: 20px;
+}
+
+.card2 {
+  padding: 20px; /* Consistent padding inside the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a soft shadow for better visuals */
+  border-radius: 10px; /* Smooth rounded corners */
+}
+
+@media (max-width: 768px) { /* For tablets and small devices */
+  .card2 {
+    margin: 10px auto; /* Add spacing between stacked cards */
+  }
+}
+
+@media (max-width: 576px) { /* For small mobile devices */
+  .card2 {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .summary {
+    font-size: 14px; /* Adjust summary font size */
+  }
+
+  .img-cont img {
+    max-width: 200px; /* Smaller image on small screens */
+  }
 }
 /* card*/
 
