@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenFancy } from "@fortawesome/free-solid-svg-icons";
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 function Skills() {
   return (
@@ -32,10 +33,10 @@ function Skills() {
               <div className="card card2 h-100" style={{ width: "100%", maxWidth: "22rem" }}>
                 <h3 className="card-header text-center">Frontend Development</h3>
                 <div className="card-body">
-                  <h5 className="card-subtitle mb-2">HTML</h5>
-                  <h5 className="card-subtitle mb-2">CSS</h5>
-                  <h5 className="card-subtitle mb-2">React JS</h5>
-                  <h5 className="card-subtitle mb-2">JavaScript</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>HTML</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>CSS</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>React JS</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>JavaScript</h5>
                 </div>
               </div>
             </div>
@@ -45,11 +46,11 @@ function Skills() {
               <div className="card card2 h-100" style={{ width: "100%", maxWidth: "22rem" }}>
                 <h3 className="card-header text-center">Backend Development</h3>
                 <div className="card-body">
-                  <h5 className="card-subtitle mb-2">MYSQL</h5>
-                  <h5 className="card-subtitle mb-2">Java Programming</h5>
-                  <h5 className="card-subtitle mb-2">Node JS</h5>
-                  <h5 className="card-subtitle mb-2">Express JS</h5>
-                  <h5 className="card-subtitle mb-2">MongoDB</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>MYSQL</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>Java Programming</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>Node JS</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>Express JS</h5>
+                  <h5 className="card-subtitle mb-2"><CheckCircleIcon style={{marginRight:"10px"}}></CheckCircleIcon>MongoDB</h5>
                 </div>
               </div>
             </div>

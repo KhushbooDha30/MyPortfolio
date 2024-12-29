@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
-import { BrowserRouter } from 'react-router-dom';
+
 import Footer from './components/Footer';
 
 
@@ -15,15 +15,21 @@ import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
    <NavBar/>
-   <Hero/>
+   <div className='container'>
+    <div className='row'>
+      <div className='col-1'></div>
+      <div className='col-10'><Hero/>
    <AboutMe/>
    <Skills/>
    <Projects/>
-   <ContactMe/>
+   <ContactMe/></div>
+      <div className='col-1'></div>
+    </div>
+   
+   </div>
    <Footer/>
-   </BrowserRouter>
+  
   </React.StrictMode>
 );
 

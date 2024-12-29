@@ -48,10 +48,7 @@ body {
 }
 
 /* Profile Picture and Semi-circle */
-container-img,profile-picture{
-  height: 50%;
-  border-radius: 50%;
-}
+
 
 .details{
   margin-top: 50px;
@@ -108,9 +105,10 @@ container-img,profile-picture{
     font-size: 14px; /* Adjust font size for smaller buttons */
   }
 
-  .details h4, .details h1 {
-    font-size: 18px; /* Adjust heading sizes for small screens */
+  .details h1 {
+    font-size: 30px; /* Adjust heading sizes for small screens */
   }
+  
 }
 
 h1{
@@ -152,7 +150,7 @@ h1{
   }
 
   .img-cont img {
-    max-width: 200px; /* Smaller image on small screens */
+    max-width: 150px; /* Smaller image on small screens */
   }
 }
 /* card*/
@@ -313,7 +311,7 @@ h1{
 /*aboutme*/
 /* General styling for the image */
 .aboutimg {
-  max-width: 100%; /* Ensures the image scales to fit its container */
+  max-width: 80%; /* Ensures the image scales to fit its container */
   height: auto; /* Maintains the aspect ratio of the image */
   display: block; /* Removes extra space below the image */
   margin: 0 auto; /* Centers the image */

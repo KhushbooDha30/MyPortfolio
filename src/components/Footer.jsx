@@ -7,7 +7,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return ( 
         <div className='container-fluid  mt-5  text-center' style={{backgroundColor:"#212A31"}}>
-            <h4 style={{marginTop:"45px"}}>© 2024 Khushboo Dhakciya. All rights reserved.</h4>
+            <h5 style={{marginTop:"45px",padding:"20px"}}>© 2024 Khushboo Dhakciya. All rights reserved.</h5>
             
             <a href='https://github.com/KhushbooDha30'><FontAwesomeIcon
                               className="hero-btn shadow-none hover-shadow-lg "

@@ -19,10 +19,10 @@ function Hero() {
         <div className="row align-items-center">
           {/* Left Section */}
           <div className="col-12 col-md-6 text-md-start details  text-md-left">
-            <h4 className="text-center text-md-start">Hello, I'm</h4>
+            <h4 >Hello, I'm</h4>
             <h1 className="text-center text-md-start">Khushboo Dhakciya</h1>
             <h4 className="text-center text-md-start">Full Stack Developer</h4>
-            <div className="d-flex flex-column flex-md-row gap-3 mt-4">
+            <div className="gap-3 mt-4">
               <button
                 className="btn hero-btn shadow-none hover-shadow-lg download"
                 onClick={handleClick}
@@ -68,8 +68,8 @@ function Hero() {
               alt="Avatar"
               className="img-fluid rounded-circle mt-4"
               style={{
-                maxWidth: "300px",
-                height: "auto",
+                maxWidth: "250px",
+                height: "350",
                 objectFit: "cover",
               }}
             />

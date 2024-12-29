@@ -1,5 +1,7 @@
 import React from "react";
 import Face3Icon from "@mui/icons-material/Face3";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
 
 function AboutMe() {
   return (
@@ -12,7 +14,11 @@ function AboutMe() {
             <h1 className="text-center text-md-start">
               About me
               <Face3Icon
-                style={{ fontSize: "40px", color: "#66FCF1", marginLeft: "20px" }}
+                style={{
+                  fontSize: "40px",
+                  color: "#66FCF1",
+                  marginLeft: "20px",
+                }}
                 className="aboutimg"
               />
             </h1>
@@ -20,22 +26,22 @@ function AboutMe() {
               <img
                 src="aboutme.png"
                 alt="about"
-                className="img-fluid"
+                className="aboutimg"
                 style={{
                   maxWidth: "550px",
-      
+
                   padding: "2px", // Reduced padding
                 }}
               />
             </div>
             <p className="summary text-center text-md-start mt-3">
-              I am Khushboo Dhakciya, a dreamer, creator, and problem-solver
-              at heart. My journey in software development has been fueled by
+              I am Khushboo Dhakciya, a dreamer, creator, and problem-solver at
+              heart. My journey in software development has been fueled by
               curiosity and an unrelenting passion for learning. With a strong
-              foundation in full-stack development, particularly the MERN
-              stack, I thrive on transforming ideas into impactful solutions.
-              Beyond coding, I bring leadership and adaptability to every
-              project, ensuring a balance of innovation and efficiency.
+              foundation in full-stack development, particularly the MERN stack,
+              I thrive on transforming ideas into impactful solutions. Beyond
+              coding, I bring leadership and adaptability to every project,
+              ensuring a balance of innovation and efficiency.
             </p>
           </div>
         </div>
@@ -47,19 +53,26 @@ function AboutMe() {
               className="card card2 h-100"
               style={{
                 width: "100%",
-                maxWidth: "22rem",
+                maxWidth: "24rem",
                 height: "auto", // Responsive height
               }}
             >
               <h3 className="card-header text-center">Education</h3>
               <div className="card-body">
                 <h5 className="card-subtitle mb-2">
+                  <CheckCircleIcon
+                    style={{ marginRight: "10px" }}
+                  ></CheckCircleIcon>
                   Bachelor's in Computer Applications -{" "}
                   <strong>Bherulal Patidar Government PG College, DAVV</strong>
                 </h5>
                 <h5>
+                  <CheckCircleIcon
+                    style={{ marginRight: "10px" }}
+                  ></CheckCircleIcon>{" "}
                   Master's in Computer Applications -{" "}
                   <strong>SGSITS, RGPV</strong>
+                
                 </h5>
               </div>
             </div>
@@ -75,25 +88,31 @@ function AboutMe() {
             >
               <h3 className="card-header text-center">Experience</h3>
               <div className="card-body">
-                <h5 className="card-subtitle mb-2">Fresher</h5>
+                <h5 className="card-subtitle mb-2">
+                  <CheckCircleIcon
+                    style={{ marginRight: "10px" }}
+                  ></CheckCircleIcon>
+                  Fresher
+                </h5>
                 <h5>
+                  <CheckCircleIcon
+                    style={{ marginRight: "10px" }}
+                  ></CheckCircleIcon>
                   Eager to apply my skills and knowledge to real-world projects
                   and make a meaningful impact.
                 </h5>
               </div>
             </div>
-          
           </div>
-          
         </div>
 
-        <hr style={{
-          margin: "40px 0",  // Adding margin for space around the line
-          border: "1px solid #66FCF1", // Styling the hr element with color and border width
-        }} />
-        
+        <hr
+          style={{
+            margin: "40px 0", // Adding margin for space around the line
+            border: "1px solid #66FCF1", // Styling the hr element with color and border width
+          }}
+        />
       </div>
-     
     </>
   );
 }
